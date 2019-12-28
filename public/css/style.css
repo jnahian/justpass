@@ -1,0 +1,132 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+.container {
+    width: 90%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#index-banner {
+    padding-bottom: 75px;
+    clear: both;
+}
+.error-msg {
+    position: absolute;
+    right: 10px;
+}
+
+.alert {
+    padding: 15px 20px;
+    /*border: 1px solid;*/
+    color: #fff;
+    display: block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.alert.alert-success {
+    color: #388e3c;
+    background-color: rgba(56, 142, 60, 0.3);
+}
+
+.alert.alert-info {
+    color: #0277bd;
+    background-color: rgba(2, 119, 189, 0.3);
+}
+
+.alert.alert-warning {
+    color: #f57c00;
+    background-color: rgba(245, 124, 0, 0.3);
+}
+
+.alert.alert-danger {
+    color: #d32f2f;
+    background-color: rgba(211, 47, 47, 0.3);
+}
+.list-pass {
+    border: none !important;
+}
+
+td {
+    position: relative;
+}
+
+.list-pass ~ i {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    cursor: pointer;
+}
+.list-pass {
+    padding: 0;
+    height: unset !important;
+}
+.hide-pass {
+    display: none;
+}
+.page-footer {
+    padding: 0;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    z-index: 9;
+}
+.brand-logo img {
+    margin-top: 13px;
+    margin-right: 12px;
+}
+#index-banner {
+    padding-top: 0;
+}
+#index-banner h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.label {
+    padding: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #999;
+}
+
+nav ul a {
+    position: relative;
+    padding-left: 40px;
+}
+nav ul a .material-icons {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+.search-btn {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.search-btn:hover, .search-btn:focus {
+    background-color: transparent;
+    border: 0;
+}
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        width: 60%;
+    }
+}
