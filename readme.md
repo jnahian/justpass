@@ -1,4 +1,4 @@
-<p align="center"><img src="http://justpass.jnahian.com/images/logo-white.png" alt="Just Pass" width="30"></p>
+<p align="center"><img src="http://justpass.jnahian.com/images/android-icon-192x192.png" alt="Just Pass" width="30"></p>
 
 ## About Just Pass
 
