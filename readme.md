@@ -1,4 +1,5 @@
 <p align="center"><img src="http://justpass.jnahian.com/images/android-icon-192x192.png" alt="Just Pass" width="30"></p>
+<h1 align="center" style="color: #0f9d58">Just Pass</h1>
 
 ## About Just Pass
 
